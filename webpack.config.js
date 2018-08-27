@@ -40,13 +40,10 @@ module.exports = {
                           publicPath: './dist/css'
                         }
                       },
-                    
                     {
                         loader: 'css-loader',
                     }
-  
-                ],
-                
+                ],  
             },
             {
                 test: /\.scss$/,
@@ -54,24 +51,18 @@ module.exports = {
 
                 process.env.NODE_ENV !== 'production' ? 'style-loader' : MiniCssExtractPlugin.loader,
 
-
                 {
                     loader: "css-loader",
                     options: {
-                        includePaths: ["./src/css/style.css"],
-                        
+                        includePaths: ["./src/css/style.css"],             
                     }
                 }, 
-
                 {
                     loader: "sass-loader",
                     options: {
                         includePaths: ["./src/scss/style.scss"],
                     }
-                },
-
-
-                
+                },      
             ]
             }
         ]
