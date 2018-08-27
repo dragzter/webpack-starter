@@ -1,0 +1,40 @@
+{
+  "name": "react-webpack-starter",
+  "version": "1.0.0",
+  "description": "boilerplate for react apps",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
+  },
+  "author": "Vladimir Mujakovic",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^9.1.3",
+    "css-flip": "^0.5.0",
+    "css-loader": "^1.0.0",
+    "csso-cli": "^1.1.0",
+    "extract-loader": "^2.0.1",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^2.0.0",
+    "html-loader": "^0.5.5",
+    "mini-css-extract-plugin": "^0.4.2",
+    "node-sass": "^4.9.3",
+    "postcss-cli": "^6.0.0",
+    "postcss-loader": "^3.0.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.22.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.6"
+  }
+}
